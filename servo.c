@@ -17,7 +17,7 @@ int main(){
     printf("Hello world!\n");
     //while(1){
         writeTo("/sys/class/pwm/pwmchip3/pwm1/enable", "1");
-        writeTo("/sys/class/pwm/pwmchip3/pwm1/duty_cycle", "5000000");
+        writeTo("/sys/class/pwm/pwmchip3/pwm1/duty_cycle", "1500000");
         
     //}
     
